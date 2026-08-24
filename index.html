@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Baytul-Hikmah | Institution for Higher Islamic Education</title>
+  <link rel="icon" href="images/New Logo.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="images/New Logo.jpg">
+  <meta name="theme-color" content="#10251f">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand" onclick="switchPage('home')">
+        <img src="images/New Logo.jpg" alt="Baytul-Hikmah Logo" class="nav-logo">
+        <div class="brand-text">
+          <span class="brand-title" lang="ar" dir="rtl">&#1576;&#1610;&#1578; &#1575;&#1604;&#1581;&#1603;&#1605;&#1577;</span>
+        </div>
+      </a>
+      
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active" data-page="home">Home</a>
+        <a href="#about" class="nav-link" data-page="about">About Us</a>
+        <a href="#courses" class="nav-link" data-page="courses">Academics</a>
+        <a href="#registration" class="nav-link" data-page="registration">Registration</a>
+        <a href="#contact" class="nav-link" data-page="contact">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- PAGE 1: HOME -->
+    <section id="home" class="page-section active">
+      <div class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <div class="hero-logo-lockup">
+            <img src="images/New Logo.jpg" alt="Baytul-Hikmah Arabic logo">
+            <span lang="ar" dir="rtl">&#1605;&#1572;&#1587;&#1587;&#1577; &#1604;&#1604;&#1593;&#1604;&#1608;&#1605; &#1575;&#1604;&#1593;&#1575;&#1604;&#1610;&#1577;</span>
+          </div>
+          <span class="arabic-motto" lang="ar" dir="rtl">&#1585;&#1571;&#1587; &#1575;&#1604;&#1581;&#1603;&#1605;&#1577; &#1605;&#1582;&#1575;&#1601;&#1577; &#1575;&#1604;&#1604;&#1607;</span>
+          <h1>Illuminating Minds Through Traditional Islamic Knowledge</h1>
+          <p>Nurturing faith, scholarship, and virtue at Baytul-Hikmah Institution for Higher Islamic Education. 2027 admissions are now open.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" onclick="switchPage('registration')">Apply For Admission</button>
+            <a class="btn btn-secondary" href="https://wa.me/27719094077?text=Assalaamu%20Alaikum%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Baytul-Hikmah." target="_blank" rel="noopener">WhatsApp Enquiries</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="highlights-grid">
+        <div class="card highlight-card">
+          <div class="icon-arch">Q</div>
+          <h3>Authentic Quranic Studies</h3>
+          <p>Comprehensive Hifdh Al Quraan programmes structured for both full-time and part-time students.</p>
+        </div>
+        <div class="card highlight-card">
+          <div class="icon-arch">A</div>
+          <h3>Alim Scholarship</h3>
+          <p>Deep foundational and advanced education in Islamic jurisprudence, Hadith, Arabic, and Tafseer.</p>
+        </div>
+        <div class="card highlight-card">
+          <div class="icon-arch">C</div>
+          <h3>Serene Learning Campus</h3>
+          <p>Located in the tranquil neighborhood of Hayfields, Pietermaritzburg, ideal for spiritual growth.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 2: ABOUT US -->
+    <section id="about" class="page-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="arabic-heading" lang="ar" dir="rtl">&#1576;&#1610;&#1578; &#1575;&#1604;&#1581;&#1603;&#1605;&#1577;</span>
+          <h2>About Our Institution</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image-wrapper">
+            <img src="images/New Logo.jpg" alt="Baytul-Hikmah Emblem" class="about-logo">
+          </div>
+          <div class="about-content">
+            <h3>Building Foundations. Mastering Knowledge. Pursuing Excellence.</h3>
+            <p>Established in January 2026, Baytul-Hikmah Institution for Higher Islamic Education provides structured Islamic learning for students of all ages.</p>
+            <p>Our focus is to build strong foundations in the Islamic sciences, develop mastery of Arabic, and guide students towards advanced study with discipline, clarity, and love for lifelong learning.</p>
+            
+            <div class="pillars">
+              <div class="pillar">
+                <h4>Vision</h4>
+                <p>To make serious Islamic education accessible, progressive, and rooted in authentic scholarship.</p>
+              </div>
+              <div class="pillar">
+                <h4>Mission</h4>
+                <p>To equip students with Arabic, foundational Islamic sciences, sound understanding, and the tools for advanced study.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="insight-grid">
+          <div class="insight-card">
+            <span>Approach</span>
+            <h3>Active, Engaging Learning</h3>
+            <p>Lessons encourage participation, memorisation, revision, questions, discussion, and regular assessment.</p>
+          </div>
+          <div class="insight-card">
+            <span>For All Ages</span>
+            <h3>Flexible Study Pathways</h3>
+            <p>Younger students may progress full-time, while adults can study selected subjects around work and family life.</p>
+          </div>
+          <div class="insight-card">
+            <span>Campus</span>
+            <h3>Growing in Pietermaritzburg</h3>
+            <p>Baytul-Hikmah begins with classroom, office, toilet, and bathroom facilities, with a long-term campus vision.</p>
+          </div>
+        </div>
+
+        <div class="campus-gallery">
+          <div class="gallery-copy">
+            <span>Madressa Glimpse</span>
+            <h3>A Calm Space for Learning and Growth</h3>
+            <p>Our Pietermaritzburg location offers classroom space, open grounds, and a peaceful setting as Baytul-Hikmah grows into a dedicated centre of Islamic education.</p>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-feature">
+              <img src="images/Pic 2.jpg" alt="Baytul-Hikmah campus exterior and grounds" loading="lazy">
+              <figcaption>Learning grounds in Hayfields, Pietermaritzburg</figcaption>
+            </figure>
+            <figure>
+              <img src="images/Pic 1.jpg" alt="Baytul-Hikmah classroom building exterior" loading="lazy">
+              <figcaption>Current learning facilities</figcaption>
+            </figure>
+            <figure>
+              <img src="images/Pic 3.jpg" alt="Open outdoor grounds at Baytul-Hikmah" loading="lazy">
+              <figcaption>Open grounds for future development</figcaption>
+            </figure>
+            <figure>
+              <img src="images/Pic 4.jpg" alt="Interior study space at Baytul-Hikmah" loading="lazy">
+              <figcaption>Simple interior study space</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 3: COURSES OFFERED -->
+    <section id="courses" class="page-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Academic Programmes</h2>
+          <p>2027 pathways for male and female Alim students, full-time Hifz, and part-time Hifz learners</p>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="courses-grid">
+          <!-- Course 1 -->
+          <div class="course-card">
+            <div class="course-header">
+              <span class="badge">Part-Time</span>
+              <h3>Part-Time Hifdh Al Quraan</h3>
+            </div>
+            <div class="course-body">
+              <p>Designed for students continuing memorisation with regular guided revision, Tajweed, and steady progress around their weekly commitments.</p>
+              <ul class="course-features">
+                <li>Saturday after Fajr for 2&frac12; hours</li>
+                <li>Individualized progress tracking</li>
+                <li>Focus on Tajweed rules & retention</li>
+              </ul>
+            </div>
+            <div class="course-footer">
+              <button class="btn btn-outline" onclick="switchPage('registration')">Enroll Now</button>
+            </div>
+          </div>
+
+          <!-- Course 2 -->
+          <div class="course-card featured">
+            <div class="course-header">
+              <span class="badge">Full-Time</span>
+              <h3>Full-Time Hifzhul Quraan</h3>
+            </div>
+            <div class="course-body">
+              <p>An immersive program focused on complete Quranic memorization, daily revision discipline, and mastery of recitation rules in an inspiring environment.</p>
+              <ul class="course-features">
+                <li>Morning session: 8:00 a.m. to 12:00 p.m.</li>
+                <li>Afternoon session: 3:00 p.m. to 6:00 p.m.</li>
+                <li>Structured revision (Sabaq, Sabqi, Dhor)</li>
+              </ul>
+            </div>
+            <div class="course-footer">
+              <button class="btn btn-primary" onclick="switchPage('registration')">Enroll Now</button>
+            </div>
+          </div>
+
+          <!-- Course 3 -->
+          <div class="course-card">
+            <div class="course-header">
+              <span class="badge">Advanced</span>
+              <h3>Alim Course</h3>
+            </div>
+            <div class="course-body">
+              <p>A rigorous higher learning programme covering Classical Arabic, Qur'an recitation, Tajweed, Fiqh, Hadith, Tafseer, Islamic History, and Aqeedah.</p>
+              <ul class="course-features">
+                <li>Comprehensive Islamic Jurisprudence</li>
+                <li>Arabic Language & Literature</li>
+                <li>Deep study of primary Hadith texts</li>
+              </ul>
+            </div>
+            <div class="course-footer">
+              <button class="btn btn-outline" onclick="switchPage('registration')">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="program-showcase">
+          <div class="program-panel">
+            <span class="badge">2027 Alim Pathways</span>
+            <h3>Male and Female Alim Courses</h3>
+            <p>Structured first-year and second-year Alim studies with a strong foundation in Arabic, Qur'an recitation, Tajweed, Fiqh, Hadith, and disciplined Islamic scholarship.</p>
+            <div class="alim-pathway-grid">
+              <div class="alim-pathway">
+                <strong>Male Alim Course</strong>
+                <span>Focused classroom study for male students progressing through the Alim syllabus.</span>
+              </div>
+              <div class="alim-pathway">
+                <strong>Female Alim Course</strong>
+                <span>A dedicated pathway for female students seeking structured Islamic learning.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="program-side">
+            <div class="schedule-card">
+              <span>Alim Course</span>
+              <strong>Monday - Thursday: 8:00 a.m. - 12:30 p.m.</strong>
+              <p>Friday: 8:00 a.m. - 11:05 a.m.</p>
+            </div>
+            <div class="schedule-card">
+              <span>Part-Time Hifdh</span>
+              <strong>Saturday after Fajr</strong>
+              <p>2&frac12; hours of guided memorisation and revision.</p>
+            </div>
+            <div class="schedule-card">
+              <span>Full-Time Hifzhul Quraan</span>
+              <strong>Morning: 8:00 a.m. to 12:00 p.m.</strong>
+              <p>Afternoon: 3:00 p.m. to 6:00 p.m.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="enrolment-panel">
+          <div class="enrolment-head">
+            <span>2027 Admissions</span>
+            <h3>Baytul-Hikmah Student Admission Form</h3>
+            <p>Applications are open for First Year Aalim, Second Year Aalim, Part-Time Hifdh Al Quraan, and Full-Time Hifzhul Quraan.</p>
+          </div>
+          <div class="enrolment-grid">
+            <div class="form-preview-card">
+              <span>* Required Information</span>
+              <ul>
+                <li>Name and father's name</li>
+                <li>Date of birth, nationality, and previous school or madrassah</li>
+                <li>Level of Qur'anic knowledge</li>
+                <li>Parent or guardian details for students 18 and under</li>
+                <li>Course selection and admission date</li>
+              </ul>
+            </div>
+            <div class="calendar-card">
+              <span>Calendar and Fees</span>
+              <p>The yearly calendar follows the school calendar, with all school holidays off.</p>
+              <p>For Hifz students, some public holidays may be excluded or treated differently according to the Hifz programme.</p>
+              <p>Monthly fees: First/Second Year Aalim R850, Part-Time Hifdh R550, Full-Time Hifdh R900. Assistance may be requested on the form.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="admissions-note">
+          <div>
+            <span>Admissions</span>
+            <h3>Enroll Now for 2027</h3>
+            <p>Applications and enquiries are open for the Male Alim Course, Female Alim Course, Part-Time Hifdh, and Full-Time Hifzhul Quraan.</p>
+          </div>
+          <button class="btn btn-primary" onclick="switchPage('registration')">Register Interest</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 4: REGISTRATION -->
+    <section id="registration" class="page-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Student Admission Form</h2>
+          <p>Baytul-Hikmah 2027 admissions</p>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="form-wrapper">
+          <div class="enquiry-strip">
+            <div>
+              <span>Admissions enquiries</span>
+              <strong>Speak to us directly on WhatsApp</strong>
+            </div>
+            <a class="btn btn-whatsapp" href="https://wa.me/27719094077?text=Assalaamu%20Alaikum%2C%20I%20would%20like%20to%20enquire%20about%20student%20registration%20at%20Baytul-Hikmah." target="_blank" rel="noopener">WhatsApp +27 71 909 4077</a>
+          </div>
+          <form id="registrationForm" class="admission-form" onsubmit="handleRegistration(event)">
+            <div class="form-intro">
+              <h3>Baytul-Hikmah Student Admission Form</h3>
+              <p><span>*</span> Indicates required question</p>
+            </div>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="regFullName">Name *</label>
+                <input type="text" id="regFullName" required placeholder="-">
+              </div>
+
+              <div class="form-group">
+                <label for="regFatherName">Father's Name *</label>
+                <input type="text" id="regFatherName" required placeholder="-">
+              </div>
+
+              <div class="form-group">
+                <label for="regDob">Date of Birth *</label>
+                <input type="date" id="regDob" required>
+              </div>
+
+              <div class="form-group">
+                <label for="regPreviousSchool">Previous School/Madrassah if any</label>
+                <input type="text" id="regPreviousSchool" placeholder="-">
+              </div>
+
+              <div class="form-group">
+                <label for="regNationality">Nationality *</label>
+                <input type="text" id="regNationality" required placeholder="-">
+              </div>
+
+              <div class="form-group">
+                <label for="regPhone">Contact Number *</label>
+                <input type="tel" id="regPhone" required placeholder="+27 71 000 0000">
+              </div>
+
+              <fieldset class="form-group full-width choice-group">
+                <legend>Level of Quranic knowledge *</legend>
+                <label><input type="radio" name="quranLevel" value="Completed Hifzh" required> Completed Hifzh</label>
+                <label><input type="radio" name="quranLevel" value="Memorized Part of the Quraan"> Memorized Part of the Quraan</label>
+                <label><input type="radio" name="quranLevel" value="Can read fluently looking in"> Can read fluently looking in</label>
+                <label><input type="radio" name="quranLevel" value="Completed Qaidah but can't read fluently"> Completed Qaidah but can't read fluently</label>
+                <label><input type="radio" name="quranLevel" value="No experience at all"> No experience at all</label>
+              </fieldset>
+
+              <div class="form-group">
+                <label for="regGuardianName">Parent/Guardian Name (For 18 and under)</label>
+                <input type="text" id="regGuardianName" placeholder="-">
+              </div>
+
+              <div class="form-group">
+                <label for="regGuardianSurname">Parent/Guardian Surname</label>
+                <input type="text" id="regGuardianSurname" placeholder="-">
+              </div>
+
+              <div class="form-group">
+                <label for="regGuardianRelationship">Parent/Guardian Relationship</label>
+                <input type="text" id="regGuardianRelationship" placeholder="-">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="regAddress">Physical Address *</label>
+                <input type="text" id="regAddress" required placeholder="-">
+              </div>
+
+              <fieldset class="form-group full-width choice-group">
+                <legend>Course *</legend>
+                <label><input type="radio" name="course" value="First year Aalim" required> First year Aalim</label>
+                <label><input type="radio" name="course" value="Second year Aalim"> Second year Aalim</label>
+                <label><input type="radio" name="course" value="Part time Hifdh Al Quraan"> Part time Hifdh Al Quraan</label>
+                <label><input type="radio" name="course" value="Full time Hifzhul Quraan"> Full time Hifzhul Quraan</label>
+              </fieldset>
+
+              <fieldset class="form-group full-width choice-group">
+                <legend>Declaration *</legend>
+                <p>I (parent/guardian) declare that the information provided is true and correct, and agree to abide by the rules and regulations of Baytul-Hikmah. Filling in this form does not guarantee admission. We shall confirm with you once your form has been reviewed and accepted.</p>
+                <label><input type="checkbox" id="regDeclaration" required> I Agree</label>
+              </fieldset>
+
+              <fieldset class="form-group full-width choice-group">
+                <legend>Are you able to pay monthly fees? *</legend>
+                <p>First/Second Year Aalim R850, Part-Time Hifdh R550, Full-Time Hifdh R900, depending on course chosen.</p>
+                <label><input type="radio" name="fees" value="Yes" required> Yes</label>
+                <label><input type="radio" name="fees" value="No, require assistance"> No, require assistance</label>
+              </fieldset>
+
+              <div class="form-group">
+                <label for="regAdmissionDate">Date of Admission *</label>
+                <input type="date" id="regAdmissionDate" required>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary submit-btn">Submit via WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 5: CONTACT US -->
+    <section id="contact" class="page-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>Reach out for inquiries, admissions, or campus visits</p>
+          <div class="gold-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="info-card">
+              <div class="info-icon">01</div>
+              <div>
+                <h4>Address</h4>
+                <p>88 Hesketh Drive, Hayfields<br>Pietermaritzburg (PMB), South Africa</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">02</div>
+              <div>
+                <h4>Contact Number</h4>
+                <p><a href="https://wa.me/27719094077?text=Assalaamu%20Alaikum%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Baytul-Hikmah." target="_blank" rel="noopener">+27 71 909 4077</a></p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">03</div>
+              <div>
+                <h4>WhatsApp</h4>
+                <p><a href="https://wa.me/27719094077?text=Assalaamu%20Alaikum%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20Baytul-Hikmah." target="_blank" rel="noopener">Chat with Us on WhatsApp</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-card">
+            <h3>Send Us a Message</h3>
+            <form id="contactForm" onsubmit="handleContact(event)">
+              <div class="form-group">
+                <label for="cName">Your Name</label>
+                <input type="text" id="cName" required placeholder="Enter full name">
+              </div>
+              <div class="form-group">
+                <label for="cPhone">Contact / WhatsApp</label>
+                <input type="tel" id="cPhone" required placeholder="+27 71 000 0000">
+              </div>
+              <div class="form-group">
+                <label for="cMessage">Message</label>
+                <textarea id="cMessage" rows="4" required placeholder="How can we assist you?"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send via WhatsApp</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Mobile Floating Quick Registration Bar -->
+  <div class="mobile-quick-action">
+    <a class="btn btn-whatsapp btn-full" href="https://wa.me/27719094077?text=Assalaamu%20Alaikum%2C%20I%20would%20like%20to%20make%20a%202027%20admissions%20enquiry%20at%20Baytul-Hikmah." target="_blank" rel="noopener">WhatsApp Enquiries</a>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="images/New Logo.jpg" alt="Logo" class="footer-logo">
+        <h3>Baytul-Hikmah</h3>
+        <p>Institution for Higher Islamic Education</p>
+        <span lang="ar" dir="rtl">&#1605;&#1572;&#1587;&#1587;&#1577; &#1604;&#1604;&#1593;&#1604;&#1608;&#1605; &#1575;&#1604;&#1593;&#1575;&#1604;&#1610;&#1577;</span>
+      </div>
+      <div class="footer-links">
+        <a href="#home" onclick="switchPage('home')">Home</a>
+        <a href="#about" onclick="switchPage('about')">About Us</a>
+        <a href="#courses" onclick="switchPage('courses')">Academics</a>
+        <a href="#registration" onclick="switchPage('registration')">Registration</a>
+        <a href="#contact" onclick="switchPage('contact')">Contact</a>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2027 Baytul-Hikmah Institution. All Rights Reserved. | Hayfields, PMB</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
